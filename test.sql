@@ -1,0 +1,13 @@
+-- create database user;
+-- use user;
+-- create table user(id int,username varchar(50),email varchar(50));
+-- alter table user add unique(username);
+-- alter table user add unique(email);
+-- alter table user add primary key(id);
+-- alter table user.user
+-- change column id id int not null auto_increment;
+select * from user
+-- thay đổi giá trị id tự tăng
+-- alter table user auto_increment = 100;
+-- insert into user(username,email) values ('trí đào sợ vợ','tridaosovo@gmail.com'),('lượng lươn lẹo','luongluonleo@gmail.com'),('minh rình rập','minhrinhrap@gmail.com')
+-- insert into user(username,email)values ('trí đào sợ ','tridaoso@gmail.com');
