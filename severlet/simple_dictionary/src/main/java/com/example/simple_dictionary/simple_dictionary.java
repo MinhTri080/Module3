@@ -19,7 +19,7 @@ public class simple_dictionary extends HttpServlet {
         Map<String,String> dictionary = new HashMap<>();
         dictionary.put("hello","xin chào");
         dictionary.put("how","thế nào");
-        dictionary.put("book","quyển vở");
+        dictionary.put("book","quyển sách");
         dictionary.put("computer","máy tính");
         String search = request.getParameter("txtSearch");
         PrintWriter writer = response.getWriter();
