@@ -3,7 +3,6 @@
 <html>
 <head>
     <title>Currency Converter</title>
-    <link rel="stylesheet" type="text/css">
 </head>
 <body>
 <h1><%= "currency converter" %>
