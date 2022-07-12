@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#logo {
+    height: 100px;
+    margin-top: 15px;
+}
+
+#logo>img {
+    height: 100%;
+    width: 100%;
+}
+
+#banner {
+    height: 100px;
+    margin-top: 15px;
+    
+}
+
+#banner>img {
+    height: 100%;
+    width: 100%;
+}
+
+#my-form {
+    margin-left: auto;
+    margin-right: -13px;
+}
+
+.nav-link {
+    color: blue !important;
+}
+#body{
+    height: 450px;
+}
+#content-1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 33%;
+    width: 100%;
+    margin: 3px;
+}
+#content-1>:first-child{
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 3px;
+    border: 1px solid black;
+}
+#content-1>:last-child{
+    background-color: green;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 3px;
+    border: 1px solid black;
+}
+
+#content-2{
+    display: flex;
+    align-content: flex-start;
+    height: 33%;
+    width: 100%;
+    margin: 3px;
+}
+#content-2 div{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    margin: 3px;
+    background-color: violet;
+}
+#content-3{
+    display: flex;
+    align-content: flex-start;
+    height: 33%;
+    width: 100%;
+    margin: 3px;
+}
+#content-3 div{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    margin: 3px;
+    background-color: violet;
+}
+#left{
+    display: flex;
+    flex-direction: column;
+}
+#left>:first-child{
+    border: 1px solid black;
+    height: 40%;
+    text-align: center;
+    background-color: aqua;
+    margin:3px 0px 3px 15px;
+}
+#left>:last-child{
+    border: 1px solid black;
+    height: 50%;
+    text-align: center;
+    background-color: blue;
+    margin:3px 0px 3px 15px;
+}
+
+#right{
+    display: flex;
+    flex-direction: column;
+}
+#right div{
+    border: 1px solid black;
+    height: 33%;
+    text-align: center;
+    background-color: chartreuse;
+    margin:3px 15px 3px 0;
+}
+#menu{
+    justify-content: end;
+    margin-right: 13px;
+    margin-top: 8px;
+}
+#text{
+    justify-content: flex-start;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+}
